@@ -1,0 +1,21 @@
+Command #cmd
+* REACT APP 설치
+  > npx create-react-app movie_app_2021
+* 전달받은 PROPS TYPE이 맞는지 확인
+  > npm i prop-types
+* 해당 프로젝트는 Movie 이므로 YTS라는 Movie JSON 정보를 가지오 오는 API를 사용
+  > npm i yts
+* github에 페이지를 제공하는 API
+  > npm i gh-pages
+
+1. HTML + Javascript = JSX
+2. React Application은 하나의 Component만을 Rendering 해야함
+3. mounting: component가 죽을 생길때 >> constructor() {}
+4. componentDidMount(): 처음 Component가 생성될 때 
+5. componentDidUpdate(): Component가 업데이트 될 때마다
+6. componentWillUnmount(): Component가 죽을 때
+7. axios: fetch위에 작은 layer(예쁘게 꾸며주는 것)
+8. Link 태그는 Router(react-router-dom) 외부에서는 사용 할 수 없다.
+9. HashRouter / BrowserRouter 차이: /#/의 유무
+  >> HashRouter: github pages에 설정하기 쉬움
+  >> BrowserRouter: github pages에 설정하기 쉽지 않음
